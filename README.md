@@ -9,7 +9,7 @@ Straightforward HTTP client based on PHP's Client URL Library
 
 ## Installation
 
-`composer require furqansiddiqui/http-client`
+`composer require aytaceminoglu/http-client`
 
 ## Usage
 
