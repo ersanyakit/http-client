@@ -1,22 +1,26 @@
 {
-  "name": "aytaceminoglu/http-client",
+  "name": "ersanyakit/ethereum-rpc",
   "type": "library",
-  "description": "Straightforward HTTP client",
+  "description": "Ethereum (geth) RPC client",
   "keywords": [
-    "http",
-    "http-client"
+    "ethereum",
+    "geth",
+    "ethereum-go",
+    "eth"
   ],
   "license": "MIT",
   "require": {
     "php": ">=7.1.0",
-    "ext-curl": "*",
-    "ext-json": "*"
+    "ext-bcmath": "*",
+    "ext-json": "*",
+    "ersanyakit/http-client": "dev-master"
   },
   "autoload": {
     "psr-4": {
-      "HttpClient\\": [
+      "EthereumRPC\\": [
         "src"
       ]
     }
-  }
+  },
+  "minimum-stability": "dev"
 }
